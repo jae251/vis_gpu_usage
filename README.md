@@ -11,3 +11,4 @@ For easy access over terminal from everywhere use
 pip install -e .
 vis_gpu_usage
 ```
+![alt text](https://github.com/jae251/vis_gpu_usage/blob/master/sample.PNG "sample graph")
