@@ -54,7 +54,7 @@ class GPUVisualizer:
             ax_.spines['left'].set_color('none')
             ax_.spines['right'].set_color('none')
             ax_.tick_params(labelcolor='w', top='off', bottom='off', left='off', right='off')
-            self.set_axes = None
+            self.set_axes = lambda x: None
 
         self.axes = []
         self.usage_data = []
